@@ -1,0 +1,104 @@
+:root {
+    --rojokfc: #E4002B;
+    --gris: #cbcaca;
+    --fondoscuro: #3d3d3d;
+    --tarjeta: #cbcaca;
+}
+
+body {
+    background-color: var(--gris);
+
+}
+
+body .tema-oscuro{ 
+    background-color: var(--fondoscuro);
+}
+
+.tema-oscuro .card {
+    background-color: var(--tarjeta);
+}
+
+section {
+    display:flex;s
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: var(--rojokfc);
+    color: #fff;
+    font-size: small;
+    line-height: 1.25rem;
+}
+
+h2 {
+    margin-top: -0.5rem;
+    margin-left: 0.5rem;
+    font-size: small;
+}
+
+.card {
+    /*background-color: beige;*/
+    color: black;
+    box-shadow: 0px 0px 5px #232322;
+    /*margin: rem;*/
+}
+
+.container .row .col-md-3 .card .prec {
+    margin-left: 0.5rem;
+    font-weight: 500;
+    font-size: small;
+}
+
+.container .row .col-md-3 .card img {
+    object-fit: cover;
+}
+
+.container .row .col-md-3 .card .txt {
+    padding: 0.5rem;
+    font-size:x-small;
+    line-height: 1rem;
+}
+
+/*.container .row .col-md-3 .contenedor-tarjetas {
+    margin: 0.5rem;
+}*/
+
+.container .row .col-md-3 .card {
+    
+    border-radius: 5px;
+    height: 400px;
+    width: 200px;
+}
+
+
+/*Configuración del botón
+.container .row .col-md-3 .card .btncomp {
+    border: none;
+    background-color: var(--rojokfc);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: auto;
+}*/
+
+.btncomp {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border:none;
+    background-color: var(--rojokfc);
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    margin-top:auto;
+}
+
+.btncomp:hover{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border:none;
+    background-color: #a9001f;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    margin-top:auto;
+}
