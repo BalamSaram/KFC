@@ -10,7 +10,7 @@ body {
 
 }
 
-body .tema-oscuro{ 
+body.tema-oscuro { 
     background-color: var(--fondoscuro);
 }
 
